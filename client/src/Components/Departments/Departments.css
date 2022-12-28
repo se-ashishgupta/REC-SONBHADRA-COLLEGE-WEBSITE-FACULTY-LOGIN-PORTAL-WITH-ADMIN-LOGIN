@@ -1,0 +1,46 @@
+.departmenthome {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 15px;
+  gap: 10px;
+}
+
+.departmenthome .link {
+  width: calc(20% - 10px);
+  padding: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.departmenthome .card {
+  overflow: hidden;
+  transform: scale();
+  transition: all 0.3s ease;
+  padding: 5px;
+}
+
+.departmenthome .card:hover {
+  transform: scale(1.05);
+}
+.departmenthome .card .card_img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.card_body {
+  padding: 10px 5px;
+}
+.departmenthome .card .card_title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.departmenthome .card .card_email,
+.card_hod {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: blue;
+}

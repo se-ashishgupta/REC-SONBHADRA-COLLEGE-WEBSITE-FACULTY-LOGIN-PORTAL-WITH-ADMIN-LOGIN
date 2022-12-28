@@ -1,0 +1,236 @@
+.qualification_container {
+  margin: 10px;
+  min-height: 90vh;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.qualification_container .content {
+  background-color: white;
+  padding: 10px;
+  min-height: 90vh;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  transition: 0.5s;
+}
+.qualification_container .content .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.add_qualifications_form .input_section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.add_qualifications_form .input_section .form_group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  width: calc(25% - 10px);
+  transition: 0.5s;
+}
+.add_qualifications_form .input_section .form_group label {
+  font-size: 1.3rem;
+  color: gray;
+  transition: 0.5s;
+}
+.add_qualifications_form .input_section .form_group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(201, 195, 195);
+  transition: 0.5s;
+}
+.add_qualifications_form .button_section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.add_qualifications_form .button_section input {
+  font-size: 1.2rem;
+  font-weight: 500px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+  background-color: #ffc107;
+}
+.add_qualifications_form .button_section input:hover {
+  background-color: #04698e;
+}
+
+.qualification_container .content .qualiitem_content {
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.qualification_container .content .qualiitem_content .qualiitem_heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  transition: 0.5s;
+}
+.qualification_container .content .qualiitem_content .qualiitem_heading span {
+  width: calc(20% - 10px);
+}
+
+.qualification_container .content .qualiitem_content .quali_item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 8px;
+  transition: 0.5s;
+}
+.qualification_container .content .qualiitem_content .quali_item span {
+  width: calc(20% - 10px);
+}
+.qualification_container .content .qualiitem_content .quali_item span div {
+  display: flex;
+  gap: 1.5rem;
+}
+.qualification_container
+  .content
+  .qualiitem_content
+  .quali_item
+  .delete_quali_btn,
+.update_quali_btn {
+  font-weight: 500px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+}
+.quali_item .delete_quali_btn {
+  background-color: #e02929;
+}
+.quali_item .delete_quali_btn:hover {
+  background-color: #ffc107;
+}
+.quali_item .update_quali_btn {
+  background-color: green;
+}
+.quali_item .update_quali_btn:hover {
+  background-color: #04698e;
+}
+
+/* Update section style */
+.update_form {
+  width: 98.8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  transition: 0.5s;
+}
+.update_form .form_group {
+  width: calc(20% - 10px);
+}
+.update_form span {
+  width: calc(20% - 10px);
+  display: flex;
+  gap: 1rem;
+}
+.update_form span div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.update_form span div .updateform_quali_btn,
+.cancelform_quali_btn {
+  font-weight: 500px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+}
+.quali_item .updateform_quali_btn {
+  background-color: green;
+}
+.quali_item .updateform_quali_btn:hover {
+  background-color: #04698e;
+}
+.quali_item .cancelform_quali_btn {
+  background-color: red;
+}
+.quali_item .cancelform_quali_btn:hover {
+  background-color: #ffc107;
+}
+/* //Responsive */
+
+@media (max-width: 1180px) {
+  .add_qualifications_form .input_section .form_group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    width: calc(33% - 10px);
+    transition: 0.5s;
+  }
+
+  .qualification_container .content .qualiitem_content .qualiitem_heading span {
+    width: calc(25% - 10px);
+  }
+  .qualification_container .content .qualiitem_content .quali_item span {
+    width: calc(25% - 10px);
+  }
+}
+@media (max-width: 1010px) {
+  .qualification_container .content .qualiitem_content .qualiitem_heading span {
+    width: calc(33% - 10px);
+  }
+  .qualification_container .content .qualiitem_content .quali_item span {
+    width: calc(33% - 10px);
+  }
+}
+@media (max-width: 930px) {
+  .add_qualifications_form .input_section .form_group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    width: calc(50% - 10px);
+    transition: 0.5s;
+  }
+  .add_qualifications_form .button_section input {
+    padding: 0.3rem;
+  }
+}
+@media (max-width: 675px) {
+  .add_qualifications_form .input_section .form_group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    width: calc(100% - 10px);
+    transition: 0.5s;
+  }
+  .qualification_container .content .qualiitem_content .qualiitem_heading span {
+    width: calc(50% - 10px);
+  }
+  .qualification_container .content .qualiitem_content .quali_item span {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 475px) {
+  .qualification_container .content .qualiitem_content .qualiitem_heading span {
+    width: calc(100% - 10px);
+  }
+  .qualification_container .content .qualiitem_content .quali_item span {
+    width: calc(100% - 10px);
+  }
+}

@@ -1,0 +1,122 @@
+.admindashboard .content {
+  background-color: white;
+  padding: 10px;
+  min-height: 150vh;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  transition: 0.5s;
+}
+.content .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+
+.admindashboard .content .reports {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.4rem;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+.admindashboard .content .reports .repo {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  transition: 0.5s;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding: 1rem;
+  width: calc(33% - 10px);
+}
+.admindashboard .content .reports .repo .icon {
+  width: calc(65% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #025877;
+}
+.admindashboard .content .reports .repo .icon img {
+  width: 60%;
+  width: 60%;
+}
+.admindashboard .content .reports .repo .repo_text {
+  width: calc(35% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.admindashboard .content .reports .repo .repo_text .department {
+  color: gray;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.admindashboard .content .reports .repo .repo_text .no {
+  font-size: 1.5rem;
+}
+.faculty_list {
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.faculty_list .tabs {
+  font-size: 1.07rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.faculty_list table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 100%;
+  background: rgb(135 189 113);
+}
+.faculty_list .ash_list,
+.cse_list,
+.ece_list,
+.ee_list,
+.rs_list,
+.ts_list {
+  overflow-x: auto;
+}
+
+.faculty_list table tr {
+  display: flex;
+}
+.faculty_list table th,
+td {
+  text-align: left;
+  padding: 8px;
+  width: calc(25% - 10px);
+}
+
+tbody:nth-child(even) {
+  background-color: #dcdada;
+}
+tbody:nth-child(odd) {
+  background-color: #fcfdf9;
+}
+.faculty_list table th {
+  height: 40px;
+  font-weight: bold;
+  /* background: grey; */
+}
+
+/* Responsive */
+@media (max-width: 950px) {
+  .admindashboard .content .reports .repo {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 550px) {
+  .admindashboard .content .reports .repo {
+    width: calc(100% - 10px);
+  }
+}

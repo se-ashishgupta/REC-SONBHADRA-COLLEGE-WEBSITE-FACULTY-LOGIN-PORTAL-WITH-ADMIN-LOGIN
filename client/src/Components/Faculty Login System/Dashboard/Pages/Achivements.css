@@ -1,0 +1,170 @@
+/* .areaofinterest_container {
+  margin: 10px;
+  min-height: 90vh;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.areaofinterest_container .content {
+  background-color: white;
+  min-height: 90vh;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  transition: 0.5s;
+}
+.areaofinterest_container .content .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.add_areaofinterest_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.add_areaofinterest_form .input_section,
+.button_section {
+  padding: 1.4rem;
+  transition: 0.5s;
+  width: calc(50% - 10px);
+}
+.add_areaofinterest_form .input_section .form_group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  width: calc(50% - 10px);
+  transition: 0.5s;
+}
+.add_areaofinterest_form .input_section .form_group label {
+  font-size: 1.3rem;
+  color: gray;
+  transition: 0.5s;
+}
+.add_areaofinterest_form .input_section .form_group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(201, 195, 195);
+  transition: 0.5s;
+}
+
+.add_areaofinterest_form .button_section input {
+  font-size: 1.2rem;
+  font-weight: 500px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+  background-color: #ffc107;
+}
+.add_areaofinterest_form .button_section input:hover {
+  background-color: #04698e;
+}
+
+.areaofinterest_container .content .areaofinterest_content {
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+.areaofinterest_container
+  .content
+  .areaofinterest_content
+  .areaofinterest_heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.areaofinterest_container
+  .content
+  .areaofinterest_content
+  .areaofinterest_item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  transition: 0.5s;
+} */
+/* .areaofinterest_container
+  .content
+  .areaofinterest_content
+  .areaofinterest_item
+  span {
+  width: calc(50% - 10px);
+} */
+/* .areaofinterest_container
+  .content
+  .areaofinterest_content
+  .areaofinterest_item
+  span
+  div {
+  display: flex;
+  gap: 1.5rem;
+}
+.areaofinterest_container
+  .content
+  .areaofinterest_content
+  .areaofinterest_item
+  .delete_areaofinterest_btn,
+.update_areaofinterest_btn {
+  font-weight: 500px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+}
+.areaofinterest_item .delete_areaofinterest_btn {
+  background-color: #e02929;
+}
+.areaofinterest_item .delete_areaofinterest_btn:hover {
+  background-color: #ffc107;
+}
+.areaofinterest_item .update_areaofinterest_btn {
+  background-color: green;
+}
+.areaofinterest_item .update_areaofinterest_btn:hover {
+  background-color: #04698e;
+} */
+
+/* Update section style */
+/* .update_form_aoi {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  transition: 0.5s;
+}
+
+.update_form_aoi span div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.update_form_aoi span div .updateform_quali_btn,
+.cancelform_quali_btn {
+  font-weight: 500px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  transition: 0.5s;
+}
+.areaofinterest_item .updateform_quali_btn {
+  background-color: green;
+}
+.areaofinterest_item .updateform_quali_btn:hover {
+  background-color: #04698e;
+}
+.areaofinterest_item .cancelform_quali_btn {
+  background-color: red;
+}
+.areaofinterest_item .cancelform_quali_btn:hover {
+  background-color: #ffc107;
+} */

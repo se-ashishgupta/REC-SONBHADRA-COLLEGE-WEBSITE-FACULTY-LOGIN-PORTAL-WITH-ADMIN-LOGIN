@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+/* Login Page CSS */
+
+.login {
+  /* background: pink; */
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  min-height: 80vh;
+}
+
+.login .container {
+  background: white;
+  width: 800px;
+  min-height: 400px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  display: flex;
+  align-items: center;
+}
+.login .login-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.login .login-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login .login-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.login .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login .userlogin-from {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.login .form-group {
+  display: flex;
+  gap: 15px;
+  border-bottom: 2px solid gray;
+}
+.login input {
+  border: none;
+  outline: none;
+}
+.login .form-submit {
+  background-color: rgb(203, 23, 50);
+
+  border-radius: 4px;
+  padding: 5px;
+  border: 2px solid rgb(187, 4, 4);
+  transition: 0.3s all ease;
+  color: white;
+}
+.login .form-submit:hover {
+  background-color: transparent;
+  color: black;
+}

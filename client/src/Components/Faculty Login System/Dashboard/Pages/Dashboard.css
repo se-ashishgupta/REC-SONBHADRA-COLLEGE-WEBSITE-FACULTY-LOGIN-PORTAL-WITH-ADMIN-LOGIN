@@ -1,0 +1,165 @@
+.user_profile {
+  margin: 10px;
+  min-height: 95vh;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.user_profile .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.4rem;
+  transition: 0.5s;
+}
+
+.user_profile form {
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.user_profile .row1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0.8rem;
+  height: calc(25%);
+  transition: 0.5s;
+}
+.user_profile .row1 .column {
+  width: calc(33% - 10px);
+  transition: 0.5s;
+}
+/* .user_profile .row1 .profile_img {
+  width: calc(25% - 10px);
+}
+.user_profile .row1 .profile_head {
+  width: calc(25% - 10px);
+}
+.user_profile .row1 .profile_bio {
+  width: calc(45% - 10px);
+} */
+.user_profile .row1 .profile_img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.user_profile .row2 {
+  padding: 1rem 0.8rem;
+  height: calc(75%);
+  transition: 0.5s;
+}
+.user_profile .row2 .infobox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transition: 0.5s;
+}
+.user_profile .row2 .infobox .info {
+  display: flex;
+  width: calc(50% - 20px);
+  transition: 0.5s;
+}
+.user_profile .row2 .infobox .info .info_title {
+  color: gray;
+  width: 40%;
+  font-weight: bold;
+}
+.user_profile .row2 .infobox .info .info_value {
+  color: #0d6efd;
+  width: 60%;
+}
+.user_profile .row2 .qualifications .qualifications_heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  transition: 0.5s;
+}
+.user_profile .row2 .qualifications .qualifications_heading span {
+  width: calc(25% - 10px);
+  font-weight: bold;
+  color: gray;
+}
+.user_profile .row2 .qualifications .qualification_item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  transition: 0.5s;
+}
+.user_profile .row2 .qualifications .qualification_item span {
+  color: #0d6efd;
+  width: calc(25% - 10px);
+}
+
+.user_profile .row2 .areaofinterests {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  transition: 0.5s;
+}
+.user_profile .row2 .areaofinterests .areaofinterest_item {
+  color: #0d6efd;
+}
+.user_profile .row2 .achivements {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  transition: 0.5s;
+}
+.user_profile .row2 .achivements .achivement_item {
+  color: #0d6efd;
+}
+/* Responsive */
+@media (max-width: 750px) {
+  .user_profile .row2 .infobox .info {
+    flex-direction: column;
+  }
+  .user_profile .row1 .column {
+    width: calc(100% - 10px);
+  }
+  .user_profile .row1 .profile_img,
+  .profile_head,
+  .profile_bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .user_profile .row2 .qualifications .qualifications_heading span {
+    width: calc(50% - 10px);
+    font-weight: bold;
+    color: gray;
+  }
+  .user_profile .row2 .qualifications .qualification_item span {
+    color: #0d6efd;
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 550px) {
+  .user_profile .row2 .infobox .info {
+    width: calc(100% - 20px);
+  }
+}
+@media (max-width: 430px) {
+  .user_profile .row1 .profile_img,
+  .profile_head,
+  .profile_bio {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .user_profile .row2 .qualifications .qualifications_heading span {
+    width: calc(100% - 10px);
+    font-weight: bold;
+    color: gray;
+  }
+  .user_profile .row2 .qualifications .qualification_item span {
+    color: #0d6efd;
+    width: calc(100% - 10px);
+  }
+}
